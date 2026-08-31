@@ -10,6 +10,13 @@ int main() {
   std::cin >> name;
   std::cout << "Years coding goal: ";
   std::cin >> years;
-  std::cout << name << " — 1/3/5/7 year story goes here (" << years << ")\n";
+  std::cout << "\nHello, " << name << "!\n";
+  std::cout <<"\nMy Timeline:\n";
+  std::cout << "In 1 year, I want to get better at coding."\n";
+  std::cout << "In 3 years, I hope to have graduated with a Bachelor's Degree in Data Sciecnce.\n";
+  std::cout << "In 5 years, I want to have a good paying job as a Healthcare Data Analyst.\n";
+  std::cout << "In 7 years, I hope to have a successful career and my own house.\n";
+  std:cout << "\nMy coding goal is " << years << "year(s).\n";
+
   return 0;
 }
